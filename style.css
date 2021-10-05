@@ -7,6 +7,15 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+.site-navigation li{
+    margin-right: 200px;
+    list-style-type: none;
+}
+
+.site-navigation a{
+    text-decoration: none;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -362,6 +371,10 @@ a:hover {
     z-index: 2;
 }
 
+.col-sm-4 li{
+    margin-top: 12px;
+}
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -677,7 +690,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .tight-width-whitespace {
